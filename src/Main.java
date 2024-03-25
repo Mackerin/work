@@ -280,7 +280,6 @@ public class Main {
             System.out.println("1 - да; 2 - нет");
             answer = scan.nextInt();
         } while (answer == 1);
-        System.out.println("Hello");
 
 
     }
@@ -295,6 +294,5 @@ public class Main {
         } catch (IOException e) {
             System.out.println("Ошибка при записи данных в файл: " + e.getMessage());
         }
-        System.out.println("Ykvaemo");
     }
 }
