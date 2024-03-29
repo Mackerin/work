@@ -280,6 +280,7 @@ public class Main {
             System.out.println("1 - да; 2 - нет");
             answer = scan.nextInt();
         } while (answer == 1);
+        System.out.println("Проверка новой ветки");
 
 
     }
